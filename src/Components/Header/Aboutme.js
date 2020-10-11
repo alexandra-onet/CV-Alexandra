@@ -16,7 +16,7 @@ export default class Aboutme extends Component {
             <div className='aboutme-content'>
                 <div className='img-details'>
                     <div>
-                        <img className='img-photo' src={FirstImg}></img>
+                        <img className='img-photo-aboutme-first' src={FirstImg}></img>
                     </div>
                     <div className='entrance-text'>
                         <h2>Hello</h2>

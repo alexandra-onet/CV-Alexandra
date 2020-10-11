@@ -11,74 +11,46 @@
     width: 400px;
     height: 500px;
     display: flex;
-    animation-name: bigEntrance;
-	-webkit-animation-name: bigEntrance;	
-	animation-duration: 1.6s;	
-	-webkit-animation-duration: 1.6s;
-	animation-timing-function: ease-out;	
-	-webkit-animation-timing-function: ease-out;	
-	visibility: visible !important;	
+		
 }
-@keyframes bigEntrance {
+.img-photo-aboutme-first {
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
 	0% {
-		transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
-		opacity: 0.2;
+		transform: scale(0.95);
 	}
-	30% {
-		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
-		opacity: 1;
-	}
-	45% {
-		transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	60% {
-		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
-		opacity: 1;
-	}	
-	75% {
-		transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	90% {
-		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
-		opacity: 1;
+	50% {
+		transform: scale(1);
 	}	
 	100% {
-		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}		
+		transform: scale(0.95);
+	}			
 }
-@-webkit-keyframes bigEntrance {
+
+@-webkit-keyframes pulse {
 	0% {
-		-webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
-		opacity: 0.2;
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
 	}
-	30% {
-		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
-		opacity: 1;
-	}
-	45% {
-		-webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	60% {
-		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
-		opacity: 1;
-	}	
-	75% {
-		-webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}
-	90% {
-		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
-		opacity: 1;
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
 	}	
 	100% {
-		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
-		opacity: 1;
-	}				
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
 }
+
 .entrance-text {
     background-color: rgba(0,0,0,0.05);
     box-shadow: 0px 2px 31px 1px rgba(0,0,0,0.75);
@@ -140,7 +112,7 @@
 	}	
 }
 .img-personal-details {
-    width: 400px;
+    width: 300px;
     height: 380px;
     margin-top: 40px;
     margin-left: 900px;
@@ -203,6 +175,51 @@
     left: 0;
     transform: rotate(135deg);
   }
+.img-personal-details {
+	transform: rotate(20deg);
+	animation-name: pulseX;
+	-webkit-animation-name: pulseX;	
+	animation-duration: 5s;	
+	-webkit-animation-duration: 5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+ @keyframes pulseX {
+	0% {
+		transform: scale(0.9);
+		transform: rotate(20deg);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		transform: rotate(20deg);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.9);
+		transform: rotate(20deg);
+		opacity: 0.7;	
+	}			
+}
+@-webkit-keyframes pulseX {
+	0% {
+		-webkit-transform: scale(0.95);
+		transform: rotate(20deg);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		transform: rotate(20deg);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		transform: rotate(20deg);
+		opacity: 0.7;	
+	}			
+} 
+
+
 .name-surname {
     margin-top: -400px;
     margin-left: 300px;
