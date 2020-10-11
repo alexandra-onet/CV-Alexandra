@@ -6,7 +6,8 @@ import Aboutme from './Components/Header/Aboutme';
 import Contact from './Components/Header/ContanctPart';
 import Myskills from './Components/Header/myskills';
 import Header from './Components/Header/HeaderPart';
-import Footer from './Components/Footer/footerpart'
+import Footer from './Components/Footer/footerpart';
+
 
 class App extends Component {
 render(){

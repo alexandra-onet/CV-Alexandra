@@ -1,7 +1,3 @@
-.homepage-content {
-    height: 100%;
-    width: 100%;
-}
 .logo-name {
     display: flex;
     height: 200px;
@@ -13,17 +9,13 @@
     font-weight: 900;
     height: 200px;
     margin-left: 30%;
-    align-items: center;
-    justify-content: center;
     text-shadow: 0px  10px 10px #EEC0C6;
     color: white;
     z-index: 1;
     animation: swing ease-in-out 3s infinite alternate;
     transform-origin: center -20px;
     float: left;
-}
-p {
-    height: 200px;
+    z-index: 1;
 }
 @keyframes swing {
     0% { transform: rotate(5deg); }
@@ -32,19 +24,14 @@ p {
 .onet-name {
     position: relative;
     font-style: oblique;
-    font-family: 'Helevita', cursive;
-    letter-spacing: -2px;
-    margin-left: 45%;
-    height: 200px;
-    font-size: 70px;
-    z-index: 2;
-    font-weight: 400;
     font-size: 90px;
+    letter-spacing: -2px;
+    height: 200px;
+    font-weight: 400;
     opacity: 0.5;
+    margin-left: 45%;
+    z-index: 2;
     animation: smoky 3s 1s both;
-}
-.onet-name:nth-child(even){
-    animation-name: smoky-mirror;
 }
 @keyframes smoky {
     60% {
@@ -74,35 +61,34 @@ p {
     }
   }
 .homepage-description {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-  }
+    width: 100%;
+    height: 100%;
+}
+.motto-container {
+    display: flex;
+    justify-content: space-around;
+}
 .motto-background1 {
-    position: relative;
-    z-index: 3;
-    margin-right: 0;
-    margin-left: 700px;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    width: 600px;
+    background-color: #EEC0C6;
+    width: 500px;
     height: 400px;
-    background-color: #FAE1DF;
+    margin-top: 35%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 .motto-content {
-    position: absolute;
-    z-index: 5;
-    margin-top: -350px;
     background-color: rgba(0,0,0,0.05);
+    margin-top: 20%;
+    margin-left: 10%;
     width: 400px;
-    height: 500px;
-    margin-left: 35%;
-    color: gray;
+    height: 400px;
     font-size: 45px;
     letter-spacing: 2px;
+    color: gray;
     word-spacing: 5px;
     text-align: center;
     font-weight: 700;
+    position: absolute;
     animation-name: bigEntrance;
 	-webkit-animation-name: bigEntrance;	
 	animation-duration: 1.6s;	
@@ -171,13 +157,47 @@ p {
 		opacity: 1;
 	}				
 }
+.motto-content p{
+  animation-name: pulse;
+	-webkit-animation-name: pulse;	
+	animation-duration: 5s;	
+	-webkit-animation-duration: 5s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.93);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.93);
+		opacity: 0.7;	
+	}			
+}
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;	
+	}			
+}
 .motto-background2 {
-    position:relative;
-    z-index: 4;
-    margin-top: -60px;
-    margin-left: 30px;
-    width: 550px;
+    background-color: #FAE1DF;
+    width: 500px;
     height: 400px;
-    margin-bottom: 20px;
-    background-color: #EEC0C6;
+    margin-bottom: 20%;
+    margin-left: 1%;
+    margin-top: 5%;
 }

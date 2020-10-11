@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import "./HeaderPartStyle.css";
 import './aboutmestyle.css';
 import FirstImg from '../../Photos/15.JPG';
@@ -10,6 +10,7 @@ import EmailPhoto from '../../Contact-Me-Photos/Email.svg';
 import NamePhoto from '../../Contact-Me-Photos/name.svg';
 
 export default class Aboutme extends Component {
+
     render() {
         return (
             <div className='aboutme-content'>
@@ -61,15 +62,32 @@ export default class Aboutme extends Component {
                             <p>2015-2019</p>
                         </div>
                         <div className='speciality'>
-                            <p>Scoala informala de IT - WEB Development</p>
-                            <p>Faculty of chemistry and enginerring</p>
+                            <h5>Scoala informala de IT </h5>
+                            <p>Web Development (JavaScript)</p>
+                            <h5>Faculty of Chemistry and Chemical Engineering</h5>
+                            <p>Specialization: Engineering and Information Technology of Chemical and Biochemical Processes</p>
                         </div>
                     </div>
                 </div>
                 <div className='hobbies-details'>
                     <h2>Hobbiess</h2>
                     <div className='hobbies-content'>
-                        <div className='reading-hobbie'></div>
+                        <div className='each-hobbie'>
+                            <h3>Traveling</h3>
+                            <div id='traveling-hobbie'>
+                            </div>
+                        </div>
+                        <div className='each-hobbie'>
+                            <h3>Reading</h3>
+                        </div>
+                        <div className='each-hobbie'>
+                            <h3>Organizing</h3>
+                        </div>
+                        <div className='each-hobbie'>
+                            <h3>Cooking</h3>
+                        </div>
+
+
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './homepagestyle.css'
+import './homepagestyles.css'
 
 export default class HomePage extends Component {
     render() {

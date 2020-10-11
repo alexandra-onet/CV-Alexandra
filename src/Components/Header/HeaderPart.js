@@ -7,25 +7,22 @@ export default class Header extends Component {
         return (
             <div className='header-container'>
                 <div className='header-content'>
-                    <div className='header-burger-button'>
                         <Link className='button-header-container'
                             to='/'>
-                            <button className='button-header-content '>Home</button>
+                            <button className='button-header-content' id='home-button'>Home</button>
                         </Link>
                         <Link className='button-header-container'
                             to='/Aboutme'>
-                            <button className='button-header-content '>About me</button>
+                            <button className='button-header-content' id='about-me-button'>About me</button>
                         </Link>
                         <Link className='button-header-container'
                             to='/Myskills'>
-                            <button className='button-header-content '>My Skills</button>
+                            <button className='button-header-content' id='myskill-button'>My Skills</button>
                         </Link>
                         <Link className='button-header-container'
                             to='/Contact'>
-                            <button className='button-header-content '>Contact</button>
+                            <button className='button-header-content' id='contact-button'>Contact</button>
                         </Link>
-
-                    </div>
                 </div>
             </div>
         )
