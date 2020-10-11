@@ -108,6 +108,22 @@
 		-webkit-transform: translateY(0%);
 	}	
 }
+#job-resume {
+	margin-top: -3%;
+}
+#title-motto-resume {
+	font-size: 20px;
+	margin-top: 15%;
+}
+#motto-resume {
+	font-size: 15px;
+	font-style: oblique;
+	margin-top: -7%;
+}
+#ps-resume {
+	margin-top: 10%;
+	margin-left: 45%;
+}
 .img-personal-details {
     width: 300px;
     height: 380px;

@@ -35,3 +35,6 @@
     border: none;
     outline: none;
 }
+.burger-button-container {
+    display: none;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./HeaderPartStyle.css";
+import './responsive.css';
 import GithubPhoto from '../../Contact-Me-Photos/Github.svg'
 
 

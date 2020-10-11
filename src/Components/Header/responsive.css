@@ -1,0 +1,751 @@
+@media only screen and (max-width: 400px) {
+    .header-container {
+        height: 40px;
+    }
+    .header-content-full {
+        display: none;
+    }
+    .burger-button-container {
+        display: flex;
+    }
+    .burger-button-content {
+        display: flex;
+        margin-left: -120px;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .burger-button-img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+    .burger-button-container:hover .list-burger-button {
+        display: block;
+    }
+    .list-burger-button {
+        display: none;
+        list-style: none;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width:100px;
+        height: 170px;
+        margin-top: 40px;
+        margin-left: -30px;
+        background-color: rgba(238,192,198,0.4);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .burger-button-header-container {
+        width:200px;
+        height: 200px;
+    }
+    .burger-button-header-content:focus {
+        border: none;
+        outline: none;
+    }
+    .burger-button-header-content {
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+    .alexandra-name {
+        font-size: 40px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 20%;
+        z-index: 1;
+    }
+    .onet-name {
+        font-size: 40px;
+    }
+    .motto-background1 {
+        width: 200px;
+        height: 170px;
+        margin-top: 45%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 250px;
+        height: 200px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 70px;
+        width: 200px;
+        height: 250px;
+    }
+    .entrance-text {
+        width: 200px;
+    }
+    .img-personal-details {
+        width: 300px;
+        height: 350px;
+        margin-top: 40px;
+        margin-left: 10px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -360px;
+        margin-left: 30px;
+    }
+    .personaldetails-logo {
+        margin-left: 10px;
+        z-index: 2;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 10px;
+}
+}
+@media only screen and (min-width: 401px) and (max-width: 499px){ 
+    .header-container {
+        height: 40px;
+    }
+    .header-content-full {
+        display: none;
+    }
+    .burger-button-container {
+        display: flex;
+    }
+    .burger-button-content {
+        display: flex;
+        margin-left: -150px;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .burger-button-img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+    .burger-button-container:hover .list-burger-button {
+        display: block;
+    }
+    .list-burger-button {
+        display: none;
+        list-style: none;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width:100px;
+        height: 170px;
+        margin-top: 40px;
+        margin-left: -30px;
+        background-color: rgba(238,192,198,0.4);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .burger-button-header-container {
+        width:200px;
+        height: 200px;
+    }
+    .burger-button-header-content:focus {
+        border: none;
+        outline: none;
+    }
+    .burger-button-header-content {
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+    .alexandra-name {
+        font-size: 40px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 20%;
+        z-index: 1;
+    }
+    .onet-name {
+        font-size: 40px;
+    }
+    .motto-background1 {
+        width: 200px;
+        height: 170px;
+        margin-top: 45%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 250px;
+        height: 200px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 70px;
+        width: 300px;
+        height: 350px;
+    }
+    .entrance-text {
+        width: 300px;
+    }
+    .img-personal-details {
+        width: 350px;
+        height: 400px;
+        margin-top: 40px;
+        margin-left: 40px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -360px;
+        margin-left: 60px;
+    }
+    .personaldetails-logo {
+        margin-left:50px;
+        z-index: 2;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 13px;
+}
+}
+@media only screen and (min-width: 500px) and (max-width: 664px){ 
+    .button-header-content {
+        width: 100px;
+    }
+    .alexandra-name {
+        font-size: 50px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 20%;
+        z-index: 1;
+    }
+    .onet-name {
+        font-size: 50px;
+    }
+    .motto-background1 {
+        width: 200px;
+        height: 170px;
+        margin-top: 30%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 250px;
+        height: 200px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 200px;
+        height: 150px;
+        margin-bottom: 20%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .entrance-text {
+        width: 70%;
+    }
+    .img-personal-details {
+        margin-left: 10%;
+        width: 70%;
+        height: 60%;
+        margin-top: 10px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -90%;
+        margin-left: 15%;
+    }
+    .personaldetails-logo {
+        margin-left: 15%;
+        z-index: 2;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-top: 40%;
+        margin-bottom: 50px;
+        width: 70%;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+    width: 70%;
+
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 13px;
+}
+}
+@media only screen and (min-width: 665px) and (max-width: 800px){ 
+    .button-header-content {
+        width: 100px;
+    }
+    .alexandra-name {
+        font-size: 50px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 25%;
+        z-index: 1;
+    }
+    .onet-name {
+        font-size: 50px;
+    }
+    .motto-background1 {
+        width: 250px;
+        height: 250px;
+        margin-top: 30%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 350px;
+        height: 300px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20%;
+        margin-left: 0%;
+        margin-top: -7%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .entrance-text {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .img-personal-details {
+        margin-left: 15%;
+        width: 60%;
+        height: 20%;
+        margin-top: 10px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -70%;
+        margin-left: 20%;
+    }
+    .personaldetails-logo {
+        margin-left: 20%;
+        z-index: 2;
+        width: 60%;
+        height: 100%;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-top: 30%;
+        margin-bottom: 50px;
+        width: 70%;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+    width: 70%;
+
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 13px;
+}
+}
+@media only screen and (min-width: 801px) and (max-width: 1300px){ 
+    .button-header-content {
+        width: 100px;
+    }
+    .alexandra-name {
+        font-size: 50px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 25%;
+        z-index: 1;
+    }
+    .onet-name {
+        font-size: 50px;
+    }
+    .motto-background1 {
+        width: 250px;
+        height: 250px;
+        margin-top: 30%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 350px;
+        height: 300px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20%;
+        margin-left: 0%;
+        margin-top: -7%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 70%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 15%;
+        width: 70%;
+        height: 60%;
+    }
+    .entrance-text {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .img-personal-details {
+        margin-left: 15%;
+        width: 60%;
+        height: 20%;
+        margin-top: 10px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    #motto-resume {
+        margin-top: -2%;
+    }
+    .name-surname {
+        margin-top: -70%;
+        margin-left: 20%;
+    }
+    .personaldetails-logo {
+        margin-left: 20%;
+        z-index: 2;
+        width: 60%;
+        height: 100%;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+        margin-top: 35%;
+        margin-bottom: 50px;
+        width: 70%;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+    width: 70%;
+
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 13px;
+}
+}

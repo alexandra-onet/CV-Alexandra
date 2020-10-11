@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./HeaderPartStyle.css";
+import './responsive.css';
 import PhoneImg from '../../Contact-Me-Photos/Phone.svg';
 import EmailImg from '../../Contact-Me-Photos/Email.svg';
 import LinkedinImg from '../../Contact-Me-Photos/linkedin.svg';

@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import "./HeaderPartStyle.css";
 import './aboutmestyle.css';
+import './responsive.css';
 import FirstImg from '../../Photos/15.JPG';
 import SecondImg from '../../Photos/18.jpg';
 import AddressPhoto from '../../Contact-Me-Photos/Address.svg';
@@ -19,8 +20,12 @@ export default class Aboutme extends Component {
                         <img className='img-photo-aboutme-first' src={FirstImg}></img>
                     </div>
                     <div className='entrance-text'>
-                        <h2>Hello</h2>
-                        <p>SOME TEXT HEREE</p>
+                        <h2>Hi, </h2>
+                        <p id='welcome-resume'>Welcome to my online resume, my name is Alexandra Onet.</p>
+                        <p id='job-resume'>I'm a Junior Front-End Developer, a motivated and open minded person.</p>
+                        <h5 id='title-motto-resume'>Motto that represents me</h5>
+                        <p id='motto-resume'>"Only those who will risk going too far can possibly find out how far one can go"- Thomas Stearns Eliot </p>
+                        <p id='ps-resume'>P.S. Enjoy your ride into my resume.</p>
                     </div>
                 </div>
                 <div className='personal-details'>
