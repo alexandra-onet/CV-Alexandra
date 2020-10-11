@@ -1,0 +1,78 @@
+import React, { Component } from "react";
+import "./HeaderPartStyle.css";
+import './aboutmestyle.css';
+import FirstImg from '../../Photos/15.JPG';
+import SecondImg from '../../Photos/18.jpg';
+import AddressPhoto from '../../Contact-Me-Photos/Address.svg';
+import Dateofbirth from '../../Contact-Me-Photos/DOB.svg';
+import PhoneNumber from '../../Contact-Me-Photos/Phone.svg';
+import EmailPhoto from '../../Contact-Me-Photos/Email.svg';
+import NamePhoto from '../../Contact-Me-Photos/name.svg';
+
+export default class Aboutme extends Component {
+    render() {
+        return (
+            <div className='aboutme-content'>
+                <div className='img-details'>
+                    <div>
+                        <img className='img-photo' src={FirstImg}></img>
+                    </div>
+                    <div className='entrance-text'>
+                        <h2>Hello</h2>
+                        <p>SOME TEXT HEREE</p>
+                    </div>
+                </div>
+                <div className='personal-details'>
+                    <div className='personal-details-img'>
+                        <img className='img-personal-details' src={SecondImg} ></img>
+                    </div>
+                    <div className='name-surname'>
+                        <h2>Personal details</h2>
+                    </div>
+                    <div className='personaldetails-logo'>
+                        <div className='name'>
+                            <img className='img-name' src={NamePhoto}></img>
+                            <p className='txt-name'>Alexandra Voichița Oneț</p>
+                        </div>
+                        <div className='date-of-birth'>
+                            <img className='img-dob' src={Dateofbirth}></img>
+                            <p className='txt-dob'> 05 DECEMBER 1995</p>
+                        </div>
+                        <div className='address'>
+                            <img className='img-address' src={AddressPhoto}></img>
+                            <p className='txt-address'>Cluj Napoca, Cluj,</p>
+                            <p className='txt-address'>Street Parang no.11</p>
+                        </div>
+                        <div className='phone-number'>
+                            <img className='img-phone' src={PhoneNumber}></img>
+                            <p className='txt-phone'>0749-073-281</p>
+                        </div>
+                        <div className='email'>
+                            <img className='img-email' src={EmailPhoto}></img>
+                            <p className='txt-email'>alexandra.onet05@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='education-details'>
+                    <h2>Education</h2>
+                    <div className='education-content'>
+                        <div className='year'>
+                            <p>2020</p>
+                            <p>2015-2019</p>
+                        </div>
+                        <div className='speciality'>
+                            <p>Scoala informala de IT - WEB Development</p>
+                            <p>Faculty of chemistry and enginerring</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='hobbies-details'>
+                    <h2>Hobbiess</h2>
+                    <div className='hobbies-content'>
+                        <div className='reading-hobbie'></div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
