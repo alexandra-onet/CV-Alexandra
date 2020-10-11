@@ -23,7 +23,6 @@
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 }
-
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);
@@ -35,7 +34,6 @@
 		transform: scale(0.95);
 	}			
 }
-
 @-webkit-keyframes pulse {
 	0% {
 		-webkit-transform: scale(0.95);
@@ -50,7 +48,6 @@
 		opacity: 0.7;	
 	}			
 }
-
 .entrance-text {
     background-color: rgba(0,0,0,0.05);
     box-shadow: 0px 2px 31px 1px rgba(0,0,0,0.75);
@@ -218,8 +215,6 @@
 		opacity: 0.7;	
 	}			
 } 
-
-
 .name-surname {
     margin-top: -400px;
     margin-left: 300px;
@@ -294,11 +289,11 @@
       height: 30px;
       margin: 15px;
   }
-  .txt-dob, .txt-address, .txt-phone, .txt-email, .txt-name {
+.txt-dob, .txt-address, .txt-phone, .txt-email, .txt-name {
       font-size: 13px;
       height: 30px;
       margin-top: 25px;
-    }
+}
 .education-details {
         padding-left: 15%;
         padding-top: 30px;
@@ -308,7 +303,7 @@
         margin-right: 5%;
         background-color: #F7F2EF;
         box-shadow: 0px -2px 32px 0px rgba(238,192,198,1);
-    }
+}
 .education-details h2 {
     animation-name: stretchRight;
 	-webkit-animation-name: stretchRight;	
@@ -393,7 +388,7 @@
     margin-top: 50px;
     margin-left: 110px;
     margin-bottom: 0;
-    -webkit-animation-name: fadeIn;	
+	-webkit-animation-name: fadeIn;	
 	animation-duration: 1.5s;	
 	-webkit-animation-duration: 1.5s;
 	animation-timing-function: ease-in-out;	
@@ -471,7 +466,6 @@
 		transform: scaleX(1);
 	}							
 }
-
 @-webkit-keyframes stretchRight {
 	0% {
 		-webkit-transform: scaleX(0.3);
@@ -505,14 +499,11 @@
     overflow-y: auto;
     animation-name: floating;
 	-webkit-animation-name: floating;
-
 	animation-duration: 5s;	
 	-webkit-animation-duration: 5s;
-
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 }
-
 @keyframes floating {
 	0% {
 		transform: translateX(0%);	
@@ -524,7 +515,6 @@
 		transform: translateX(0%);
 	}			
 }
-
 @-webkit-keyframes floating {
 	0% {
 		-webkit-transform: translateX(0%);	
@@ -536,11 +526,9 @@
 		-webkit-transform: translateX(0%);
 	}			
 }
-
 .soft-skills-content h3, .language-skills-content h3, .mywork-content h3 {
     margin-left: 30px;
 }
-
 .language-skills-content  {
     height: 200px;
 }
@@ -563,7 +551,6 @@
     color: white;
     font-size: 10px;
 }
-
 .bar span {
     height: 20px;
     float: left;
