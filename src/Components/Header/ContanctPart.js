@@ -19,7 +19,7 @@ export default class Contact extends Component {
                         <div className='contact-real'>
                             <div className='container-contact'>
                                 <img className='contact-img' src={PhoneImg}></img>
-                                <p>0749-073-281</p>
+                                <p>0749-xxx-xxx</p>
                             </div>
                             <div className='container-contact'>
                                 <img className='contact-img' src={EmailImg}></img>

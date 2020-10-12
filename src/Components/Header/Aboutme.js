@@ -25,7 +25,6 @@ export default class Aboutme extends Component {
                         <p id='job-resume'>I'm a Junior Front-End Developer, a motivated and open minded person.</p>
                         <h5 id='title-motto-resume'>Motto that represents me</h5>
                         <p id='motto-resume'>"Only those who will risk going too far can possibly find out how far one can go"- Thomas Stearns Eliot </p>
-                        <p id='ps-resume'>P.S. Enjoy your ride into my resume.</p>
                     </div>
                 </div>
                 <div className='personal-details'>
@@ -47,11 +46,11 @@ export default class Aboutme extends Component {
                         <div className='address'>
                             <img className='img-address' src={AddressPhoto}></img>
                             <p className='txt-address'>Cluj Napoca, Cluj,</p>
-                            <p className='txt-address'>Street Parang no.11</p>
+                            <p className='txt-address'>Street Parang </p>
                         </div>
                         <div className='phone-number'>
                             <img className='img-phone' src={PhoneNumber}></img>
-                            <p className='txt-phone'>0749-073-281</p>
+                            <p className='txt-phone'>0749-xxx-xxx</p>
                         </div>
                         <div className='email'>
                             <img className='img-email' src={EmailPhoto}></img>
