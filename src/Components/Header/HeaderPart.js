@@ -5,7 +5,7 @@ import './responsive.css'
 import BurgerButton from './menu.png';
 import NameLogo from '../../Contact-Me-Photos/Name-logo1.png'
 
-export default class Header extends Component {
+export default class Header extends Component { 
     render() {
         return (
             <div className='header-container'>
@@ -16,7 +16,6 @@ export default class Header extends Component {
                         <img className='name-logo' src={NameLogo}></img>
                         </Link>
                     </div>
-
                     <div className='header-content-full'>
                         <Link className='button-header-container'
                             to='/'>
@@ -37,7 +36,7 @@ export default class Header extends Component {
                     </div>
                     <div className='burger-button-container'>
                         <div className='burger-button-content'>
-                            <img className='burger-button-img' src={BurgerButton}></img>
+                            <img id='menu-button' className='burger-button-img open-button' src={BurgerButton} ></img>
                         </div>
                             <ul className='list-burger-button'>
                                 <li>

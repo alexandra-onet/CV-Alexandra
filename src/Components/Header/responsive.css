@@ -23,12 +23,10 @@
     }
     .burger-button-container:hover .list-burger-button {
         display: block;
-        position: fixed!important;
     }
     .list-burger-button {
         display: none;
         list-style: none;
-        position: relative;
         z-index: 2;
         text-align: center;
         width: 30%;
@@ -56,7 +54,7 @@
         border: none;
     }
     .alexandra-name {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 900;
         height: 200px;
         margin-left: 15%;
@@ -65,12 +63,12 @@
     .motto-background1 {
         width: 150px;
         height: 150px;
-        margin-top: 45%;
+        margin-top: 15%;
         margin-left: 1%;
     }
     .motto-content {
         background-color: rgba(0,0,0,0.05);
-        margin-top: 5%;
+        margin-top: -30%;
         margin-left: 10%;
         width: 100px;
         height: 200px;
@@ -82,7 +80,7 @@
         height: 150px;
         margin-bottom: 20%;
         margin-left: -25%;
-        margin-top: -15%;
+        margin-top: -40%;
     }
     .contact-content h1 {
         font-size: 20px;
@@ -251,10 +249,10 @@
         border: none;
     }
     .alexandra-name {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 900;
         height: 200px;
-        margin-left: 15%;
+        margin-left: 10%;
         z-index: 1;
     }
     .motto-background1 {
@@ -773,7 +771,11 @@
 	width: 300px;
 }
 }
-@media only screen and (min-width: 500px) and (max-width: 664px){ 
+@media only screen and (min-width: 500px) and (max-width: 664px){
+    .header-content {
+        width: 90%;
+        margin-left: 5%;
+      } 
     .header-content-full {
         height: 100%;
         width: 300px;
@@ -794,10 +796,9 @@
         font-size: 50px;
         font-weight: 900;
         height: 200px;
-        margin-left: 30%;
+        margin-left: 20%;
         z-index: 1;
     }
-
     .motto-background1 {
         width: 200px;
         height: 200px;
@@ -930,6 +931,10 @@
 .button-sendemail {
 	width: 400px;
 }
+.button-header-content:focus {
+    border-bottom: 2px solid #FE5F55;
+    outline: none;
+}
 }
 @media only screen and (min-width: 665px) and (max-width: 800px){ 
     .header-content-full {
@@ -1003,6 +1008,9 @@
     .entrance-text {
         width: 80%;
         margin-left: 5%;
+    }
+    #motto-resume {
+        margin-top: 10px;
     }
     .img-personal-details {
         margin-left: 20%;
@@ -1238,6 +1246,9 @@
     .button-header-content {
         font-size: 15px;
         width: 80px;
+}
+.alexandra-name {
+    margin-left: 20%;
 }
 .logo-namme p {
     margin-top: 7%;

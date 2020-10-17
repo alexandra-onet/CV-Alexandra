@@ -3,7 +3,6 @@ import "./HeaderPartStyle.css";
 import './responsive.css';
 import GithubPhoto from '../../Contact-Me-Photos/Github.svg'
 
-
 export default class Myskills extends Component {
     render(
     ) {

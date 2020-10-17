@@ -9,7 +9,7 @@ export default class HomePage extends Component {
                     <div className='homepage-content'>
                         <div className='logo-name'>
                             <div className='alexandra-name'>
-                                <p>ALEXANDRA</p>
+                                <p>Alexandra</p>
                             </div>
                         </div>
                         <div className='homepage-description'>
