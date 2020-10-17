@@ -9,6 +9,30 @@ export default class Myskills extends Component {
     ) {
         return (
             <div>
+                <div className='mywork-skills'>
+                    <h2>MY WORK</h2>
+                </div>
+                <div className='mywork-content'>
+                    <div className='find-mywork'>
+                        <a className='find-mywork-link' href='https://github.com/alexandra-onet' target="_blank">
+                            <img className='github-mywork' src={GithubPhoto}></img>
+                            <p className='click-me-github'>Click Me !</p>
+                            <p className='mywork-title'>Here you can find my project</p>
+                        </a>
+                    </div>
+                    <a className='link-to-mywork' href='https://github.com/bndiana/movieandchill' target="_blank">
+                        <li>
+                            <h3>FINAL TEAM PROJECT</h3>
+                            <p className='mywork-link'>https://github.com/bndiana/movieandchill</p>
+                        </li>
+                    </a>
+                    <a className='link-to-mywork' href='https://github.com/alexandra-onet/cv-alexandra' target="_blank" >
+                        <li>
+                            <h3>RESUME PROJECT</h3>
+                            <p className='mywork-link'>https://github.com/alexandra-onet/cv-alexandra</p>
+                        </li>
+                    </a>
+                </div>
                 <div className='myskills-content'>
                     <h2>SOFT SKILLS</h2>
                     <div className='soft-skills-content'>
@@ -37,30 +61,7 @@ export default class Myskills extends Component {
                         <h3>English</h3><span className='bar'>80% <span className='english'></span></span>
                     </li>
                 </div>
-                <div className='mywork-skills'>
-                    <h2>MY WORK</h2>
-                </div>
-                <div className='mywork-content'>
-                    <div className='find-mywork'>
-                        <a className='find-mywork-link' href='https://github.com/alexandra-onet' target="_blank">
-                            <img className='github-mywork' src={GithubPhoto}></img>
-                            <p className='click-me-github'>Click Me !</p>
-                            <p className='mywork-title'>Here you can find my project</p>
-                        </a>
-                    </div>
-                    <a className='link-to-mywork' href='https://github.com/bndiana/movieandchill' target="_blank">
-                        <li>
-                            <h3>FINAL TEAM PROJECT</h3>
-                            <p className='mywork-link'>https://github.com/bndiana/movieandchill</p>
-                        </li>
-                    </a>
-                    <a className='link-to-mywork' href='https://github.com/alexandra-onet/cv-alexandra' target="_blank" >
-                        <li>
-                            <h3>RESUME PROJECT</h3>
-                            <p className='mywork-link'>https://github.com/alexandra-onet/cv-alexandra</p>
-                        </li>
-                    </a>
-                </div>
+
             </div>
         )
     }

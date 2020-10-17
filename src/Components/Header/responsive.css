@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px){ 
     .header-container {
         height: 40px;
     }
@@ -10,7 +10,7 @@
     }
     .burger-button-content {
         display: flex;
-        margin-left: -120px;
+        transition: all .5s ease;
         width: 30px;
         height: 30px;
         padding-top: 10px;
@@ -23,6 +23,7 @@
     }
     .burger-button-container:hover .list-burger-button {
         display: block;
+        position: fixed!important;
     }
     .list-burger-button {
         display: none;
@@ -30,12 +31,15 @@
         position: relative;
         z-index: 2;
         text-align: center;
-        width:100px;
+        width: 30%;
         height: 170px;
+        margin-left: -30%;
         margin-top: 40px;
-        margin-left: -30px;
-        background-color: rgba(238,192,198,0.4);
+        background-color: rgba(189,213,234, 0.7);
         border-radius: 0px 0px 10px 10px;
+    }
+    .list-burger-button li{
+        margin-left: -35px;
     }
     .burger-button-header-container {
         width:200px;
@@ -52,18 +56,15 @@
         border: none;
     }
     .alexandra-name {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 900;
         height: 200px;
-        margin-left: 20%;
+        margin-left: 15%;
         z-index: 1;
     }
-    .onet-name {
-        font-size: 40px;
-    }
     .motto-background1 {
-        width: 200px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         margin-top: 45%;
         margin-left: 1%;
     }
@@ -71,13 +72,13 @@
         background-color: rgba(0,0,0,0.05);
         margin-top: 5%;
         margin-left: 10%;
-        width: 250px;
+        width: 100px;
         height: 200px;
-        font-size: 25px;
+        font-size: 17px;
         font-weight: 500;
     }
     .motto-background2 {
-        width: 200px;
+        width: 150px;
         height: 150px;
         margin-bottom: 20%;
         margin-left: -25%;
@@ -102,18 +103,20 @@
         flex-direction: column;
     }
     .img-details img{
-        margin-left: 70px;
-        width: 200px;
-        height: 250px;
+        margin-left: 7%;
+        width: 250px;
+        height: 350px;
     }
     .entrance-text {
         width: 200px;
+        margin-left: 5%;
     }
     .img-personal-details {
-        width: 300px;
+        width: 270px;
         height: 350px;
-        margin-top: 40px;
-        margin-left: 10px;
+        margin-left: 4%;
+        margin-right: 5%;
+        margin-top: 0px;
         border-radius: 15px;
         animation: none;
         transform: none;
@@ -121,16 +124,16 @@
     }
     .name-surname {
         margin-top: -360px;
-        margin-left: 30px;
+        margin-left: 15%;
     }
     .personaldetails-logo {
-        margin-left: 10px;
+        margin-left: 10%;
         z-index: 2;
     }
     .education-details {
         padding-left: 15%;
         padding-top: 30px;
-        margin-top: 50px;
+                margin-top: 50px;
         margin-bottom: 50px;
 }
 .year {
@@ -173,6 +176,407 @@
 .mywork-link {
     font-size: 10px;
 }
+.send-email {
+	margin-left: 5%;
+	margin-top: 30px;
+    width: 60%;
+    padding: 40px;
+}
+.container-sendemail {
+	width: 200px;
+}
+.button-sendemail {
+	width: 200px;
+}
+
+}
+@media only screen and (min-width: 301px) and (max-width: 354px){ 
+    .header-container {
+        height: 40px;
+    }
+    .header-content-full {
+        display: none;
+    }
+    .burger-button-container {
+        display: flex;
+    }
+    .burger-button-content {
+        display: flex;
+        transition: all .5s ease;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .burger-button-img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+    .burger-button-container:hover .list-burger-button {
+        display: block;
+        position: fixed!important;
+    }
+    .burger-button-container:focus .list-burger-button {
+        display: none;
+    }
+    .list-burger-button {
+        display: none;
+        list-style: none;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width: 30%;
+        height: 170px;
+        margin-left: -30%;
+        margin-top: 40px;
+        background-color: rgba(189,213,234, 0.7);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .list-burger-button li{
+        margin-left: -35px;
+    }
+    .burger-button-header-container {
+        width:200px;
+        height: 200px;
+    }
+    .burger-button-header-content:focus {
+        border: none;
+        outline: none;
+    }
+    .burger-button-header-content {
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+    .alexandra-name {
+        font-size: 40px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 15%;
+        z-index: 1;
+    }
+    .motto-background1 {
+        width: 200px;
+        height: 170px;
+        margin-top: 45%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 150px;
+        height: 250px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 200px;
+        height: 170px;
+        margin-bottom: 20%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 5%;
+        width: 300px;
+        height: 400px;
+    }
+    .entrance-text {
+        width: 230px;
+        margin-left: 5%;
+    }
+    .img-personal-details {
+        width: 300px;
+        height: 400px;
+        margin-left: 4%;
+        margin-right: 5%;
+        margin-top: 0px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -360px;
+        margin-left: 15%;
+    }
+    .personaldetails-logo {
+        margin-left: 10%;
+        z-index: 2;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+                margin-top: 50px;
+        margin-bottom: 50px;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 10px;
+}
+.send-email {
+	margin-left: 5%;
+	margin-top: 30px;
+    width: 60%;
+    padding: 40px;
+}
+.container-sendemail {
+	width: 200px;
+}
+.button-sendemail {
+	width: 200px;
+}
+}
+@media only screen and (min-width: 355px) and (max-width: 400px){ 
+    .header-container {
+        height: 40px;
+    }
+    .header-content-full {
+        display: none;
+    }
+    .burger-button-container {
+        display: flex;
+    }
+    .burger-button-content {
+        display: flex;
+        transition: all .5s ease;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        padding-left: 5px;
+    }
+    .burger-button-img {
+        width: 20px;
+        height: 20px;
+        display: flex;
+    }
+    .burger-button-container:hover .list-burger-button {
+        display: block;
+        position: fixed!important;
+    }
+    .list-burger-button:active {
+        display: none;
+    }
+    .list-burger-button {
+        display: none;
+        list-style: none;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width: 30%;
+        height: 170px;
+        margin-left: -30%;
+        margin-top: 40px;
+        background-color: rgba(189,213,234, 0.7);
+        border-radius: 0px 0px 10px 10px;
+    }
+    .list-burger-button li{
+        margin-left: -35px;
+    }
+    .burger-button-header-container {
+        width:200px;
+        height: 200px;
+    }
+    .burger-button-header-content:focus {
+        border: none;
+        outline: none;
+    }
+    .burger-button-header-content {
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+    }
+    .alexandra-name {
+        font-size: 40px;
+        font-weight: 900;
+        height: 200px;
+        margin-left: 15%;
+        z-index: 1;
+    }
+    .motto-background1 {
+        width: 200px;
+        height: 170px;
+        margin-top: 45%;
+        margin-left: 1%;
+    }
+    .motto-content {
+        background-color: rgba(0,0,0,0.05);
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 150px;
+        height: 250px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .motto-background2 {
+        width: 200px;
+        height: 170px;
+        margin-bottom: 20%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .contactme {
+        flex-direction: column;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .contact-online {
+        display: flex;
+        margin-top: 20px;
+    }
+    .img-details {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .img-details img{
+        margin-left: 5%;
+        width: 330px;
+        height: 400px;
+    }
+    .entrance-text {
+        width: 270px;
+        margin-left: 5%;
+    }
+    .img-personal-details {
+        width: 330px;
+        height: 400px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0px;
+        border-radius: 15px;
+        animation: none;
+        transform: none;
+        opacity: 0.6;
+    }
+    .name-surname {
+        margin-top: -360px;
+        margin-left: 15%;
+    }
+    .personaldetails-logo {
+        margin-left: 10%;
+        z-index: 2;
+    }
+    .education-details {
+        padding-left: 15%;
+        padding-top: 30px;
+                margin-top: 50px;
+        margin-bottom: 50px;
+}
+.year {
+    margin-left: -40px;
+}
+.speciality {
+    margin-left: 10px;
+}
+.speciality h5 {
+    height: 40px;
+}
+.speciality p {
+    margin-top: -20px;
+    font-size: 10px;
+}
+.hobbies-details {
+    margin-top: 10px;
+}
+.myskills-content h2, .language-skills h2, .mywork-skills h2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.soft-skills-content, .language-skills-content, .mywork-content {
+    margin-left: 30px;
+}
+.bar {
+    margin-left:20px;
+}
+.bar span {
+    height: 20px;
+    float: left;
+}
+.find-mywork p {
+    font-size: 15px;
+}
+.link-to-mywork h3 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.mywork-link {
+    font-size: 10px;
+}
+.send-email {
+	margin-left: 5%;
+	margin-top: 30px;
+    width: 60%;
+    padding: 40px;
+}
+.container-sendemail {
+	width: 200px;
+}
+.button-sendemail {
+	width: 200px;
+}
 }
 @media only screen and (min-width: 401px) and (max-width: 499px){ 
     .header-container {
@@ -186,7 +590,7 @@
     }
     .burger-button-content {
         display: flex;
-        margin-left: -150px;
+        transition: all .5s ease;
         width: 30px;
         height: 30px;
         padding-top: 10px;
@@ -199,6 +603,7 @@
     }
     .burger-button-container:hover .list-burger-button {
         display: block;
+        position: fixed!important;
     }
     .list-burger-button {
         display: none;
@@ -206,12 +611,15 @@
         position: relative;
         z-index: 2;
         text-align: center;
-        width:100px;
+        width: 30%;
         height: 170px;
+        margin-left: -30%;
         margin-top: 40px;
-        margin-left: -30px;
-        background-color: rgba(238,192,198,0.4);
+        background-color: rgba(189,213,234, 0.7);
         border-radius: 0px 0px 10px 10px;
+    }
+    .list-burger-button li{
+        margin-left: -35px;
     }
     .burger-button-header-container {
         width:200px;
@@ -234,12 +642,9 @@
         margin-left: 20%;
         z-index: 1;
     }
-    .onet-name {
-        font-size: 40px;
-    }
     .motto-background1 {
-        width: 200px;
-        height: 170px;
+        width: 220px;
+        height: 180px;
         margin-top: 45%;
         margin-left: 1%;
     }
@@ -247,14 +652,14 @@
         background-color: rgba(0,0,0,0.05);
         margin-top: 5%;
         margin-left: 10%;
-        width: 250px;
-        height: 200px;
+        width: 150px;
+        height: 300px;
         font-size: 25px;
         font-weight: 500;
     }
     .motto-background2 {
-        width: 200px;
-        height: 150px;
+        width: 220px;
+        height: 180px;
         margin-bottom: 20%;
         margin-left: -25%;
         margin-top: -15%;
@@ -284,12 +689,13 @@
     }
     .entrance-text {
         width: 300px;
+        margin-bottom: 10px;
     }
     .img-personal-details {
-        width: 350px;
+        width: 355px;
         height: 400px;
-        margin-top: 40px;
-        margin-left: 40px;
+        margin-top: 10px;
+        margin-left: 10%;
         border-radius: 15px;
         animation: none;
         transform: none;
@@ -306,8 +712,9 @@
     .education-details {
         padding-left: 15%;
         padding-top: 30px;
+        padding-bottom: 10px;
+        margin-left: 10%;
         margin-top: 50px;
-        margin-bottom: 50px;
 }
 .year {
     margin-left: -40px;
@@ -323,7 +730,11 @@
     font-size: 10px;
 }
 .hobbies-details {
-    margin-top: 10px;
+    padding-left: 15%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+    margin-top: -60px;
 }
 .myskills-content h2, .language-skills h2, .mywork-skills h2 {
     margin-top: 20px;
@@ -349,52 +760,75 @@
 .mywork-link {
     font-size: 13px;
 }
+.send-email {
+	margin-left: 5%;
+	margin-top: 30px;
+    width: 70%;
+    padding: 40px;
+}
+.container-sendemail {
+	width: 300px;
+}
+.button-sendemail {
+	width: 300px;
+}
 }
 @media only screen and (min-width: 500px) and (max-width: 664px){ 
-    .button-header-content {
-        width: 100px;
+    .header-content-full {
+        height: 100%;
+        width: 300px;
+        margin-left: 5px;
     }
+    .burger-button-container {
+        display: none;
+    }
+    .button-header-content {
+        font-size: 15px;
+        width: 80px;
+}
+.logo-namme p {
+    margin-top: 7%;
+    width: 100px;
+}
     .alexandra-name {
         font-size: 50px;
         font-weight: 900;
         height: 200px;
-        margin-left: 20%;
+        margin-left: 30%;
         z-index: 1;
     }
-    .onet-name {
-        font-size: 50px;
-    }
+
     .motto-background1 {
         width: 200px;
-        height: 170px;
+        height: 200px;
         margin-top: 30%;
-        margin-left: 1%;
+        margin-left: 5%;
     }
     .motto-content {
         background-color: rgba(0,0,0,0.05);
         margin-top: 5%;
         margin-left: 10%;
-        width: 250px;
-        height: 200px;
+        width: 200px;
+        height: 250px;
         font-size: 25px;
         font-weight: 500;
     }
     .motto-background2 {
         width: 200px;
-        height: 150px;
+        height: 200px;
         margin-bottom: 20%;
-        margin-left: -25%;
-        margin-top: -15%;
+        margin-left: 5%;
+        margin-top: -5%;
     }
     .contact-content h1 {
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 10%;
         margin-top: 15px;
     }
     .contactme {
         flex-direction: column;
         width: 70%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .contact-online {
         display: flex;
@@ -410,13 +844,16 @@
         height: 60%;
     }
     .entrance-text {
-        width: 70%;
+        width: 80%;
+        margin-left: 5%;
     }
     .img-personal-details {
         margin-left: 10%;
         width: 70%;
         height: 60%;
         margin-top: 10px;
+        margin-left: 15%;
+        margin-bottom: 20px;
         border-radius: 15px;
         animation: none;
         transform: none;
@@ -424,10 +861,10 @@
     }
     .name-surname {
         margin-top: -90%;
-        margin-left: 15%;
+        margin-left: 25%;
     }
     .personaldetails-logo {
-        margin-left: 15%;
+        margin-left: 20%;
         z-index: 2;
     }
     .education-details {
@@ -435,7 +872,8 @@
         padding-top: 30px;
         margin-top: 40%;
         margin-bottom: 50px;
-        width: 70%;
+        width: 75%;
+        margin-left: 5%;
 }
 .year {
     margin-left: -40px;
@@ -452,15 +890,16 @@
 }
 .hobbies-details {
     margin-top: 10px;
-    width: 70%;
+    width: 75%;
 
 }
 .myskills-content h2, .language-skills h2, .mywork-skills h2 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15%;
 }
 .soft-skills-content, .language-skills-content, .mywork-content {
-    margin-left: 30px;
+    margin-left: 10%;
+    width: 80%;
 }
 .bar {
     margin-left:20px;
@@ -479,20 +918,42 @@
 .mywork-link {
     font-size: 13px;
 }
+.send-email {
+	margin-left: 10%;
+	margin-top: 30px;
+    width: 70%;
+    padding: 40px;
+}
+.container-sendemail {
+	width: 400px;
+}
+.button-sendemail {
+	width: 400px;
+}
 }
 @media only screen and (min-width: 665px) and (max-width: 800px){ 
-    .button-header-content {
-        width: 100px;
+    .header-content-full {
+        height: 100%;
+        width: 300px;
+        margin-left: 10px;
     }
+    .burger-button-container {
+        display: none;
+    }
+    .button-header-content {
+        font-size: 15px;
+        width: 80px;
+}
+.logo-namme p {
+    margin-top: 7%;
+    width: 150px;
+}
     .alexandra-name {
         font-size: 50px;
         font-weight: 900;
         height: 200px;
         margin-left: 25%;
         z-index: 1;
-    }
-    .onet-name {
-        font-size: 50px;
     }
     .motto-background1 {
         width: 250px;
@@ -518,13 +979,13 @@
     }
     .contact-content h1 {
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 10%;
         margin-top: 15px;
     }
     .contactme {
         flex-direction: column;
         width: 70%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .contact-online {
         display: flex;
@@ -540,11 +1001,11 @@
         height: 60%;
     }
     .entrance-text {
-        width: 70%;
-        margin-left: 10%;
+        width: 80%;
+        margin-left: 5%;
     }
     .img-personal-details {
-        margin-left: 15%;
+        margin-left: 20%;
         width: 60%;
         height: 20%;
         margin-top: 10px;
@@ -555,10 +1016,10 @@
     }
     .name-surname {
         margin-top: -70%;
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .personaldetails-logo {
-        margin-left: 20%;
+        margin-left: 25%;
         z-index: 2;
         width: 60%;
         height: 100%;
@@ -568,7 +1029,9 @@
         padding-top: 30px;
         margin-top: 30%;
         margin-bottom: 50px;
-        width: 70%;
+        width: 75%;
+        margin-left: 5%;
+
 }
 .year {
     margin-left: -40px;
@@ -584,16 +1047,17 @@
     font-size: 10px;
 }
 .hobbies-details {
+    width: 75%;
+    margin-left: 5%;
     margin-top: 10px;
-    width: 70%;
 
 }
 .myskills-content h2, .language-skills h2, .mywork-skills h2 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15%;
 }
 .soft-skills-content, .language-skills-content, .mywork-content {
-    margin-left: 30px;
+    margin-left: 10%;
 }
 .bar {
     margin-left:20px;
@@ -613,19 +1077,29 @@
     font-size: 13px;
 }
 }
-@media only screen and (min-width: 801px) and (max-width: 1300px){ 
-    .button-header-content {
-        width: 100px;
+@media only screen and (min-width: 801px) and (max-width: 1000px){ 
+    .header-content-full {
+        height: 100%;
+        width: 300px;
+        margin-left: 10px;
     }
+    .burger-button-container {
+        display: none;
+    }
+    .button-header-content {
+        font-size: 15px;
+        width: 80px;
+}
+.logo-namme p {
+    margin-top: 7%;
+    width: 150px;
+}
     .alexandra-name {
         font-size: 50px;
         font-weight: 900;
         height: 200px;
-        margin-left: 25%;
+        margin-left: 30%;
         z-index: 1;
-    }
-    .onet-name {
-        font-size: 50px;
     }
     .motto-background1 {
         width: 250px;
@@ -651,13 +1125,13 @@
     }
     .contact-content h1 {
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 15%;
         margin-top: 15px;
     }
     .contactme {
         flex-direction: column;
         width: 70%;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     .contact-online {
         display: flex;
@@ -673,11 +1147,11 @@
         height: 60%;
     }
     .entrance-text {
-        width: 70%;
-        margin-left: 10%;
+        width: 80%;
+        margin-left: 7%;
     }
     .img-personal-details {
-        margin-left: 15%;
+        margin-left: 20%;
         width: 60%;
         height: 20%;
         margin-top: 10px;
@@ -691,20 +1165,20 @@
     }
     .name-surname {
         margin-top: -70%;
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .personaldetails-logo {
-        margin-left: 20%;
+        margin-left: 25%;
         z-index: 2;
         width: 60%;
         height: 100%;
     }
     .education-details {
-        padding-left: 15%;
+        padding-left: 10%;
         padding-top: 30px;
         margin-top: 35%;
         margin-bottom: 50px;
-        width: 70%;
+        width: 80%;
 }
 .year {
     margin-left: -40px;
@@ -720,16 +1194,19 @@
     font-size: 10px;
 }
 .hobbies-details {
+    width: 80%;
     margin-top: 10px;
-    width: 70%;
-
+    padding-left: 10%;
+}
+.hobbies-content {
+    padding-left: 10%;
 }
 .myskills-content h2, .language-skills h2, .mywork-skills h2 {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15%;
 }
 .soft-skills-content, .language-skills-content, .mywork-content {
-    margin-left: 30px;
+    width: 80%;
 }
 .bar {
     margin-left:20px;
@@ -748,4 +1225,39 @@
 .mywork-link {
     font-size: 13px;
 }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px){ 
+    .header-content-full {
+        height: 100%;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .burger-button-container {
+        display: none;
+    }
+    .button-header-content {
+        font-size: 15px;
+        width: 80px;
+}
+.logo-namme p {
+    margin-top: 7%;
+    width: 150px;
+}
+}
+@media only screen and (min-width: 1300px) { 
+    .img-details {
+        margin-left: 250px;
+    }
+    .entrance-text {
+        width: 450px;
+    }
+    .img-personal-details {
+        margin-left: 800px;
+    }
+    .name-surname {
+        margin-left: 300px;
+    }
+    .personaldetails-logo {
+        margin-left: 400px;
+    }
 }

@@ -1,3 +1,11 @@
+.homepage-container {
+	width: 100%;
+	height: 100%;
+}
+.homepage-conten {
+	width: 100%;
+	height: 100%;
+}
 .logo-name {
     display: flex;
     height: 200px;
@@ -9,8 +17,8 @@
     font-weight: 900;
     height: 200px;
     margin-left: 30%;
-    text-shadow: 0px  10px 10px #EEC0C6;
-    color: white;
+    text-shadow: 0px  10px 10px #577399;
+    color: #FFFFFF;
     z-index: 1;
     animation: swing ease-in-out 3s infinite alternate;
     transform-origin: center -20px;
@@ -21,45 +29,6 @@
     0% { transform: rotate(5deg); }
     100% { transform: rotate(-5deg); }
 }
-.onet-name {
-    position: relative;
-    font-style: oblique;
-    font-size: 90px;
-    letter-spacing: -2px;
-    height: 200px;
-    font-weight: 400;
-    opacity: 0.5;
-    margin-left: 45%;
-    z-index: 2;
-    animation: smoky 3s 1s both;
-}
-@keyframes smoky {
-    60% {
-      text-shadow: 0 0 40px whitesmoke;
-    }
-    to {
-      transform:
-        translate3d(15rem,-8rem,0)
-        rotate(-40deg)
-        skewX(70deg)
-        scale(1.5);
-      text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }
-@keyframes smoky-mirror {
-    60% {
-      text-shadow: 0 0 40px whitesmoke; }
-    to {
-      transform:
-        translate3d(18rem,-8rem,0)
-        rotate(-40deg) 
-        skewX(-70deg)
-        scale(2);
-       text-shadow: 0 0 20px whitesmoke;
-      opacity: 0;
-    }
-  }
 .homepage-description {
     width: 100%;
     height: 100%;
@@ -69,22 +38,27 @@
     justify-content: space-around;
 }
 .motto-background1 {
-    background-color: #EEC0C6;
-    width: 500px;
-    height: 400px;
-    margin-top: 35%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+	/* background: rgb(242,132,130);
+	background: linear-gradient(90deg, rgba(242,132,130,1) 0%, rgba(245,202,195,1) 34%, rgba(247,237,226,1) 100%);	 */
+		
+	background-color: #BDD5EA;
+	width: 350px;
+	height: 350px;
+	margin-top: 30%;
+	margin-left: 1%;
+	margin-bottom: 5%;
 }
 .motto-content {
     background-color: rgba(0,0,0,0.05);
-    margin-top: 20%;
-    margin-left: 10%;
-    width: 400px;
+    margin-bottom: 20%;
+    margin-left: 1%;
+	margin-top: 15%;
+	padding: 0px 50px 0px 50px;
+    width: 300px;
     height: 400px;
-    font-size: 45px;
+    font-size: 40px;
     letter-spacing: 2px;
-    color: gray;
+    color: #495867;
     word-spacing: 5px;
     text-align: center;
     font-weight: 700;
@@ -194,10 +168,13 @@
 	}			
 }
 .motto-background2 {
-    background-color: #FAE1DF;
-    width: 500px;
-    height: 400px;
+	/* background: rgb(247,237,226);
+	background: linear-gradient(90deg, rgba(247,237,226,1) 0%, rgba(245,202,195,1) 56%, rgba(242,132,130,1) 100%); */
+	
+	background-color: #577399;
+	width: 350px;
+	height: 350px;
+	margin-left: -25%;
     margin-bottom: 20%;
-    margin-left: 1%;
-    margin-top: 5%;
+    margin-top: 7%;
 }

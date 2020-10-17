@@ -11,9 +11,6 @@ export default class HomePage extends Component {
                             <div className='alexandra-name'>
                                 <p>ALEXANDRA</p>
                             </div>
-                            <div className='onet-name'>
-                                <p>onet</p>
-                            </div>
                         </div>
                         <div className='homepage-description'>
                             <div className='motto-container'>

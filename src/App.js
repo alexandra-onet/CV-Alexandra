@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./App.css";
+import './App.css';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from './Components/HomePAge/HomePage'
 import Aboutme from './Components/Header/Aboutme';
@@ -12,11 +13,11 @@ import Footer from './Components/Footer/footerpart';
 class App extends Component {
 render(){
   return (
-    <div className='app'>
+    <div className='App'>
       <Router>
         <React.Fragment>
           <Header />
-          <div className='app-body'>
+          <div className='App-body'>
             <Route exact path='/' component={HomePage}/>
         <Switch>
         <Route exact path='/Aboutme' component={Aboutme}/>

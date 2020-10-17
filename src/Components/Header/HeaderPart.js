@@ -2,13 +2,21 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./HeaderPartStyle.css";
 import './responsive.css'
-import BurgerButton from './menu.png'
+import BurgerButton from './menu.png';
+import NameLogo from '../../Contact-Me-Photos/Name-logo1.png'
 
 export default class Header extends Component {
     render() {
         return (
             <div className='header-container'>
                 <div className='header-content'>
+                <div className='logo-namme'>
+                <Link className='button-header-container'
+                            to='/'>
+                        <img className='name-logo' src={NameLogo}></img>
+                        </Link>
+                    </div>
+
                     <div className='header-content-full'>
                         <Link className='button-header-container'
                             to='/'>
@@ -31,8 +39,7 @@ export default class Header extends Component {
                         <div className='burger-button-content'>
                             <img className='burger-button-img' src={BurgerButton}></img>
                         </div>
-                        <div>
-                            <div className='list-burger-button'>
+                            <ul className='list-burger-button'>
                                 <li>
                                     <Link className='burger-button-header-container'
                                         to='/'>
@@ -57,10 +64,7 @@ export default class Header extends Component {
                                         <button className='burger-button-header-content' id='contact-button'>Contact</button>
                                     </Link>
                                 </li>
-                            </div>
-
-                        </div>
-
+                            </ul>
                     </div>
                 </div>
             </div>
