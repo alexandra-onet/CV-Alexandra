@@ -4,8 +4,8 @@
     display: flex;
 }
 .header-content {
-  background: rgb(87,115,153);
-  background: linear-gradient(28deg, rgba(87,115,153,1) 0%, rgba(189,213,234,1) 37%, rgba(87,115,153,1) 100%);  
+  background: rgb(191,219,247);
+  background: linear-gradient(28deg, rgba(191,219,247,1) 0%, rgba(225,229,242,1) 30%, rgba(191,219,247,1) 100%);  
   width: 80%;
     height: 100%;
     display: flex;
@@ -48,7 +48,7 @@
  border-radius: 15px;
   content: "";
   position: absolute;
-  background: #FE5F55;
+  background: #1F7A8C;
   z-index: -1;
   top: 0;
   left: 0;
@@ -72,13 +72,18 @@
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.button-header-content:focus {
-    border-bottom: 2px solid #FE5F55;
-    outline: none;
+#home-button:hover, #about-me-button:hover, #myskill-button:hover, #contact-button:hover {
+  background: none;
+  border-bottom: 2px solid #1F7A8C;
 }
 .burger-button-container {
     display: none;
 }
+#home-button:focus, #about-me-button:focus, #myskill-button:focus, #contact-button:focus  {
+  outline: none;
+  border-bottom: 2px solid #1F7A8C;
+}
+
 .name-logo {
   width: 170px;
   height: 40px;

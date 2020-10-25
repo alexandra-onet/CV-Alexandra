@@ -45,8 +45,7 @@ export default class Aboutme extends Component {
                         </div>
                         <div className='address'>
                             <img className='img-address' src={AddressPhoto}></img>
-                            <p className='txt-address'>Cluj Napoca, Cluj,</p>
-                            <p className='txt-address'>Street Parang </p>
+                            <p className='txt-address'>Cluj Napoca, Cluj</p>
                         </div>
                         <div className='phone-number'>
                             <img className='img-phone' src={PhoneNumber}></img>

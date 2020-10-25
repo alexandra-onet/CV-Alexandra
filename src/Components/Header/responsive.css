@@ -186,6 +186,12 @@
 .button-sendemail {
 	width: 200px;
 }
+.mywork-content  {
+	height: 250px;
+}
+.carousel-content {
+    display: none;
+}
 
 }
 @media only screen and (min-width: 301px) and (max-width: 354px){ 
@@ -381,6 +387,12 @@
 .button-sendemail {
 	width: 200px;
 }
+.mywork-content  {
+	height: 250px;
+}
+.carousel-content {
+    display: none;
+}
 }
 @media only screen and (min-width: 355px) and (max-width: 400px){ 
     .header-container {
@@ -574,6 +586,12 @@
 }
 .button-sendemail {
 	width: 200px;
+}
+.mywork-content  {
+	height: 250px;
+}
+.carousel-content {
+    display: none;
 }
 }
 @media only screen and (min-width: 401px) and (max-width: 499px){ 
@@ -770,6 +788,12 @@
 .button-sendemail {
 	width: 300px;
 }
+.mywork-content  {
+	height: 250px;
+}
+.carousel-content {
+    display: none;
+}
 }
 @media only screen and (min-width: 500px) and (max-width: 664px){
     .header-content {
@@ -929,12 +953,17 @@
 	width: 400px;
 }
 .button-sendemail {
-	width: 400px;
+    width: 400px;
 }
-.button-header-content:focus {
-    border-bottom: 2px solid #FE5F55;
-    outline: none;
+.mywork-content  {
+	height: 500px;
 }
+    .carousel-item p {
+        font-size: 15px;
+    }
+    .movieandchill-carousel img {
+        width: 250px;
+    }
 }
 @media only screen and (min-width: 665px) and (max-width: 800px){ 
     .header-content-full {
@@ -1084,6 +1113,15 @@
 .mywork-link {
     font-size: 13px;
 }
+.mywork-content  {
+	height: 550px;
+}
+    .carousel-item p {
+        font-size: 20px;
+    }
+    .movieandchill-carousel img {
+        width: 400px;
+    }
 }
 @media only screen and (min-width: 801px) and (max-width: 1000px){ 
     .header-content-full {
@@ -1110,26 +1148,26 @@
         z-index: 1;
     }
     .motto-background1 {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin-top: 30%;
         margin-left: 1%;
     }
     .motto-content {
         background-color: rgba(0,0,0,0.05);
-        margin-top: 5%;
+        margin-top: 15%;
         margin-left: 10%;
-        width: 350px;
+        width: 300px;
         height: 300px;
         font-size: 35px;
         font-weight: 500;
     }
     .motto-background2 {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin-bottom: 20%;
         margin-left: 0%;
-        margin-top: -7%;
+        margin-top: 1%;
     }
     .contact-content h1 {
         font-size: 20px;
@@ -1159,8 +1197,8 @@
         margin-left: 7%;
     }
     .img-personal-details {
-        margin-left: 20%;
-        width: 60%;
+        margin-left: 25%;
+        width: 50%;
         height: 20%;
         margin-top: 10px;
         border-radius: 15px;
@@ -1172,11 +1210,11 @@
         margin-top: -2%;
     }
     .name-surname {
-        margin-top: -70%;
+        margin-top: -55%;
         margin-left: 30%;
     }
     .personaldetails-logo {
-        margin-left: 25%;
+        margin-left: 35%;
         z-index: 2;
         width: 60%;
         height: 100%;
@@ -1184,7 +1222,7 @@
     .education-details {
         padding-left: 10%;
         padding-top: 30px;
-        margin-top: 35%;
+        margin-top: 25%;
         margin-bottom: 50px;
         width: 80%;
 }
@@ -1233,8 +1271,17 @@
 .mywork-link {
     font-size: 13px;
 }
+.mywork-content  {
+	height: 600px;
 }
-@media only screen and (min-width: 1001px) and (max-width: 1200px){ 
+    .carousel-item p {
+        font-size: 20px;
+    }
+    .movieandchill-carousel img {
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1299px){ 
     .header-content-full {
         height: 100%;
         width: 300px;
@@ -1254,8 +1301,33 @@
     margin-top: 7%;
     width: 150px;
 }
+.img-details {
+    margin-left: 150px;
 }
-@media only screen and (min-width: 1300px) { 
+.entrance-text {
+    width: auto;
+    margin-right: 100px;
+}
+.img-personal-details {
+    margin-left: 600px;
+}
+.name-surname {
+    margin-left: 250px;
+}
+.personaldetails-logo {
+    margin-left: 250px;
+}
+.mywork-content  {
+	height: 700px;
+}
+    .carousel-item p {
+        font-size: 20px;
+    }
+    .movieandchill-carousel img {
+        width: 650px;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1400px){ 
     .img-details {
         margin-left: 250px;
     }
@@ -1266,9 +1338,56 @@
         margin-left: 800px;
     }
     .name-surname {
-        margin-left: 300px;
+        margin-left: 400px;
     }
     .personaldetails-logo {
         margin-left: 400px;
+    }
+    .mywork-content  {
+        height: 800px;
+    }
+
+        .movieandchill-carousel img {
+            width: 800px;
+        }
+}
+@media only screen and (min-width: 1401px) {
+    .button-header-content, .education-details, .hobbies-details, .mywork-content, .myskills-content, .language-skills, .container-contact, .row {
+        font-size: 20px;
+    }
+    .mywork-content {
+        padding-bottom: 20px;
+    }
+    .speciality p {
+        font-size: 20px;
+    }
+    .img-details img{
+        width: 550px;
+        height: 700px;
+        margin-left: 100px;
+    }
+    .entrance-text {
+        margin-left: 50px;
+        margin-right: 200px;
+        font-size: 20px;
+        width: auto;
+    }
+    .entrance-text p, #title-motto-resume, #motto-resume {
+        font-size: 20px;
+    }
+    .img-personal-details {
+        margin-left: 850px;
+        width: 400px;
+        height: 500px;
+    }
+    .name-surname {
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    .personaldetails-logo {
+        margin-left: 300px;
+    }
+    .personaldetails-logo p {
+        font-size: 20px;
     }
 }

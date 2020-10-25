@@ -48,7 +48,7 @@
 }
 .entrance-text {
     background-color: #F7F7FF;
-	box-shadow: 0px -3px 36px -4px #577399;
+	box-shadow: 0px -3px 36px -4px #022B3A;
 	border-radius: 5px;
     padding: 30px;
     margin-top: 40px;
@@ -116,7 +116,6 @@
 #motto-resume {
 	font-size: 15px;
 	font-style: oblique;
-	margin-top: -7%;
 }
 .img-personal-details {
     width: 300px;
@@ -312,7 +311,7 @@
         margin-left: 5%;
         margin-right: 5%;
         background-color: #F7F7FF;
-		box-shadow: 0px -2px 32px 0px #577399;
+		box-shadow: 0px -2px 32px 0px #022B3A;
 		border-radius: 10px;
 }
 .education-details h2 {
@@ -379,7 +378,7 @@
 .year {
     width: 150px;
     height: 150px;
-    border-right: 1px solid #FE5F55;
+    border-right: 1px solid #1F7A8C;
     margin-bottom: 20px;
 }
 .year p {
@@ -501,13 +500,14 @@
 	}		
 }
 .soft-skills-content, .language-skills-content, .mywork-content {
+	cursor: pointer;
     margin-left: 200px;
     width: 80%;
     height: 450px;
     margin: 20px auto;
 	list-style: none;
 	border-radius: 20px;
-    box-shadow: 3px 3px 33px 7px #495867;
+    box-shadow: 3px 3px 33px 7px #022B3A;
     overflow-y: auto;
     animation-name: floating;
 	-webkit-animation-name: floating;
@@ -545,28 +545,45 @@
     height: 200px;
 }
 .mywork-content  {
-    height: 350px;
-    cursor: pointer;
+	height: 900px;
+}
+.carousel-item {
+	cursor: alias;
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	align-items: center;
+}
+.carousel-item p {
+	font-size: 30px;
+	color: black;
+	padding: 5px;
+}
+.movieandchill-carousel img {
+	width: 1000px;
+}
+.soft-skills-content:hover, .language-skills-content:hover, .mywork-content:hover {
+	animation: none;
 }
 .soft-skills-content li {
     margin: 30px 0;
 }
 .bar {
-    background-color: #577399;
+    background-color: #022B3A;
     display: block;
     margin-left:80px;
     width: 80%;
     height: 20px;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 7px #BDD5EA;
-    color: black;
+    box-shadow: 0 0 7px #022B3A;
+    color: white;
     font-size: 10px;
 }
 .bar span {
     height: 20px;
     float: left;
-    background-color: #BDD5EA;
+    background-color: #1F7A8C;
 }
 .html {
     width: 90%;
@@ -686,12 +703,13 @@
     display: flex;
 }
 .contactme {
+	cursor: pointer;
     display: flex;
     justify-content: space-around;
     margin-left: 10%;
     width: 70%;
     padding: 40px;
-	box-shadow: 2px 2px 23px 5px #495867;
+	box-shadow: 2px 2px 23px 5px #022B3A;
 	border-radius: 20px;
     animation-name: floating;
 	-webkit-animation-name: floating;
@@ -699,6 +717,9 @@
 	-webkit-animation-duration: 5s;
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
+}
+.contactme:hover {
+	animation: none;
 }
 @keyframes floating {
 	0% {
@@ -776,7 +797,7 @@
     margin-left: 5%;
     margin-right: 5%;
     background-color: #F7F7FF;
-	box-shadow: 0px -2px 32px 0px #577399;
+	box-shadow: 0px -2px 32px 0px #022B3A;
 	border-radius: 15px;
 }
 .hobbies-details h2 {
@@ -840,13 +861,14 @@
     margin-left: -15%;
 }
 .send-email {
+	cursor: pointer;
 	display: flex;
     justify-content: space-around;
 	margin-left: 10%;
 	margin-top: 30px;
     width: 70%;
     padding: 40px;
-	box-shadow: 2px 2px 23px 5px #232f3a;
+	box-shadow: 2px 2px 23px 5px #022B3A;
 	border-radius: 20px;
     animation-name: floating;
 	-webkit-animation-name: floating;
@@ -855,6 +877,9 @@
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 }
+.send-email:hover {
+	animation: none;
+}
 .container-sendemail {
 	width: 500px;
 	margin-bottom: 10px;
@@ -862,7 +887,7 @@
 	border: none;
 	border-radius: 15px;
 	padding: 5px;
-	border-bottom: 2px solid #BDD5EA;
+	border-bottom: 2px solid #BFDBF7;
 	outline: none;
 }
 .button-sendemail {
@@ -876,9 +901,9 @@
 
 }
 .button-sendemail:focus {
-	border-bottom: 2px solid #BDD5EA;
+	border-bottom: 2px solid #BFDBF7;
     outline: none;
 }
 .button-sendemail:hover {
-	background-color: #BDD5EA;
+	background-color: #BFDBF7;
 }
